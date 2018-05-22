@@ -10,7 +10,7 @@ public class Calc {
 		int total = CalcLogic.tasu(a,b);
 		int delta = CalcLogic.hiku(a,b);
 		
-		System.out.println("‘«‚·‚Æ" + total + ",ˆø‚­‚Æ" + delta);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" + total + ",ã‚ã‚ã‚ã‚ã‚" + delta);
 
 	}
 
