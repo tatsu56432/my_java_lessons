@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Hero h = new Hero("‚½‚Â‚¨");
+		Hero h = new Hero("ï¿½ï¿½ï¿½Â‚ï¿½");
 		System.out.println(h.name);
         Hero h2 = new Hero();
         System.out.println(h2.hp);
@@ -17,43 +17,43 @@ public class Main {
         h2.money = 500;
         System.out.println(Hero.money);
 	
-		/*@@//swardclass‚Å—pˆÓ‚³‚ê‚½field‚Ìsward‚ğclassŒ^swardƒtƒB[ƒ‹ƒh‚Æ‚µ‚Äheroclass‚Å—pˆÓ‚µ‚Ä‚¨‚­‚ÆA‰º‹L‚Ì‚æ‚¤‚È‘‚«•û‚Åu—EÒ‚ÌŒ•‚Ì–¼‘Ov‚Æ‚¢‚¤ˆÓ–¡‚Éuhas av‚ÌŠÖŒW
+		/*ï¿½@ï¿½@//swardclassï¿½Å—pï¿½Ó‚ï¿½ï¿½ê‚½fieldï¿½ï¿½swardï¿½ï¿½classï¿½^swardï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Æ‚ï¿½ï¿½ï¿½heroclassï¿½Å—pï¿½Ó‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½Lï¿½Ì‚æ‚¤ï¿½Èï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åuï¿½Eï¿½Ò‚ÌŒï¿½ï¿½Ì–ï¿½ï¿½Oï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Ó–ï¿½ï¿½Éuhas aï¿½vï¿½ÌŠÖŒW
 		 * 
 		Sward s = new Sward();
-		s.name = "‰Š‚ÌŒ•";
+		s.name = "ï¿½ï¿½ï¿½ÌŒï¿½";
 		s.damage = 10;
 		
 		Hero h1 = new Hero();
-		h1.name = "‚½‚Â‚¨";
+		h1.name = "ï¿½ï¿½ï¿½Â‚ï¿½";
 		h1.hp = 100;
 		h1.sward = s;
 		
-		System.out.println(h1.name + "‚ÌŒ»İ‚Ì•Ší‚Í" + h1.sward.name + "!!");
+		System.out.println(h1.name + "ï¿½ÌŒï¿½ï¿½İ‚Ì•ï¿½ï¿½ï¿½ï¿½" + h1.sward.name + "!!");
 		
 		Hero h2 = new Hero();
-		h2.name = "‚İ‚È‚Æ";
+		h2.name = "ï¿½İ‚È‚ï¿½";
 		h2.hp = 100;
 		
 		Sward s2 = new Sward();
-		s2.name = "•X‚ÌŒ•";
+		s2.name = "ï¿½Xï¿½ÌŒï¿½";
 		h2.sward = s2;
 		
-		System.out.println(h2.name + "Œ»İ‚Ì•Ší‚Í" + h2.sward.name + "!!");
+		System.out.println(h2.name + "ï¿½ï¿½ï¿½İ‚Ì•ï¿½ï¿½ï¿½ï¿½" + h2.sward.name + "!!");
 		
 		Wizard w = new Wizard();
-		w.name = "–‚–@g‚¢ƒTƒ‰";
+		w.name = "ï¿½ï¿½ï¿½@ï¿½gï¿½ï¿½ï¿½Tï¿½ï¿½";
 		w.hp = 50;
 		w.heal(h1);
 		w.heal(h2);
 		w.heal(h2);
-		//‚±‚±‚ÅƒEƒBƒU[ƒh‚à‰ñ•œ‚µ‚½‚¢ê‡‚Ç‚¤‚·‚é‚Ì??
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ÅƒEï¿½Bï¿½Uï¿½[ï¿½hï¿½ï¿½ï¿½ñ•œ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½??
 		//w.heal(w);
 		*/
 		
 	
-//ƒCƒ“ƒXƒ^ƒ“ƒg‚ªˆê‚Â‚¾‚Æh1‚Æh2‚Ì•Ï”‚Ì‚È‚©‚É‚Í“¯‚¶ƒCƒ“ƒXƒ^ƒ“ƒX‚ğŒo—R‚µ‚Ä“¯‚¶ƒAƒhƒŒƒX‚ğQÆ‚·‚é‚±‚Æ‚É‚È‚é‚Ì‚ÅAh1‚àh2‚à“¯‚¶”’l200‚É‚È‚é‚æ‚Á‚Ä‚¢‚¤‚¨˜b
+//ï¿½Cï¿½ï¿½ï¿½Xï¿½^ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½h1ï¿½ï¿½h2ï¿½Ì•Ïï¿½ï¿½Ì‚È‚ï¿½ï¿½É‚Í“ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½^ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½oï¿½Rï¿½ï¿½ï¿½Ä“ï¿½ï¿½ï¿½ï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ì‚ÅAh1ï¿½ï¿½h2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½l200ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½b
 //		Hero h1 = new Hero();
-//		h1.name = "‚½‚Â‚¨";
+//		h1.name = "ï¿½ï¿½ï¿½Â‚ï¿½";
 //		h1.hp = 100;
 //		Hero h2;
 //		h2 = h1;

@@ -2,7 +2,6 @@ package lesson_09;
 
 public class Hero {
 	
-
 	String name;
 	int hp;
 	Sward sward;
@@ -39,6 +38,7 @@ public class Hero {
 
 	//コンストラクタ　メソッド名がclass名と完全に同じ必要がある。メソッド宣言に戻り値が設定されていない(voidもダメ)
 	//一番最後に書かないとダメ???
+	
 	Hero(String name){
 		this.hp = 100;
 		this.name = name;

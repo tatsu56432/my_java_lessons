@@ -2,6 +2,7 @@ package lesson_09;
 import java.util.Random;
 
 public class Cleric {
+	
     String name;
 	int hp = 50;
 	int mp = 10;
