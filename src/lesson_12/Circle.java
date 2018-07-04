@@ -20,19 +20,30 @@ public class Circle extends Shape{
 		return this.center;
 	}
 
-	public void setCenter(Point center) {
-		this.center = center;
-	}
-
 	public int getRadious() {
 		return this.radious;
 	}
-
-	public void setRadious(int radious) {
-		this.radious = radious;
+	
+	
+	public void draw() {
+		
+		Point point = this.getCenter();
+		int start_point = point.getX();
+		int end_point = point.getY();
+		System.out.println("‰~‚ğ•`‰æA’†S“_"+ start_point + "," + end_point + "‚©‚ç”¼Œa" + this.getRadious());
+		
 	}
 	
+	public double perimeter() {
 	
-	
-	
+		double result;
+		
+		int radious = this.getRadious();
+		
+		result = (radious * 2) * Math.PI;
+		
+		return result;
+		
+	}
+
 }

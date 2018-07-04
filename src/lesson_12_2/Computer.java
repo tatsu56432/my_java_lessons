@@ -9,7 +9,6 @@ public class Computer extends TangibleAssets{
 		// TODO Auto-generated constructor stub
 	}
 	
-	
 	public String getName() {
 		return this.getName();
 	}

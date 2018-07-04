@@ -9,9 +9,8 @@ public class Main_10_7 {
 		int student_score;
 		String student_name;
 		
-		String[] students_name;
-		sttu
-		
+		String students_name;
+	
 		Grade student1 = new Grade("ˆÉ“¡",60);
 		Grade student2 = new Grade("—é–Ø",88);
 		Grade student3 = new Grade("²“¡",40);
