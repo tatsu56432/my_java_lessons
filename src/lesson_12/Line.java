@@ -8,7 +8,6 @@ public class Line implements Figure{
 	public Line() {
 		this.p1 = new Point();
 		this.p2 = new Point();
-		
 	}
 	
 	public Line(int x1,int y1, int x2 , int y2) {
@@ -24,16 +23,14 @@ public class Line implements Figure{
 		return p2;
 	}
 
-	
 	@Override
-	public void draw() {
-		
-		int start_point_x1 = this.getP1().getX();
-		int end_point_y1 = this.getP1().getY();
-		int start_point_x2 = this.getP2().getX();
-		int end_point_y2 = this.getP2().getY();
+	public void draw() {		
+		int start_point_x1 = this.p1.getX();
+		int end_point_y1 = this.p1.getY();
+		int start_point_x2 = this.p2.getX();
+		int end_point_y2 = this.p2.getY();
 		// TODO Auto-generated method stub
-		System.out.println("ü‚ğ•`‰æ" + start_point_x1 + end_point_y1 + "‚©‚çI“_" + start_point_x2 + end_point_y2  + "‚ğ•`‰æ");		
+		System.out.println("ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½" + start_point_x1 + end_point_y1 + "ï¿½ï¿½ï¿½ï¿½Iï¿½_" + start_point_x2 + end_point_y2  + "ï¿½ï¿½`ï¿½ï¿½");		
 	}
 
 
@@ -42,10 +39,10 @@ public class Line implements Figure{
 		
 		double result;
 		
-		int start_point_x1 = this.getP1().getX();
-		int end_point_y1 = this.getP1().getY();
-		int start_point_x2 = this.getP2().getX();
-		int end_point_y2 = this.getP2().getY();
+		int start_point_x1 = this.p1.getX();
+		int end_point_y1 = this.p1.getY();
+		int start_point_x2 = this.p2.getX();
+		int end_point_y2 = this.p2.getY();
 		
 		double resultX = (start_point_x2 - start_point_x1);
 		double resultY = (end_point_y2 - end_point_y1);

@@ -3,9 +3,9 @@ package lesson_12;
 public class Rectangle extends Polygon {
 
 	
-	private Point p;
-	private int width;
-	private int height;
+	protected Point p;
+	protected int width;
+	protected int height;
 	
 	
 	public Point getP() {
@@ -33,7 +33,7 @@ public class Rectangle extends Polygon {
 		this.p = new Point(x,y);
 		this.setWidth(width);
 		this.setHeight(height);
-		//eƒNƒ‰ƒX‚Ìangel‚É4‚ğ‘ã“ü
+		//ï¿½eï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½angelï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½
 		super.angel = 4;
 	}
 	
@@ -48,7 +48,7 @@ public class Rectangle extends Polygon {
 		int width = this.getWidth();
 		int height = this.getHeight();
 		
-		System.out.println("lŠpŒ`‚ğ•`‰æ “_(" + start_point +","+ end_point + ")‚ğŠî€‚Æ‚µ‚ÄA•"+ width +"‚‚³"+ height +"‚ÌlŠpŒ`");
+		System.out.println("ï¿½lï¿½pï¿½`ï¿½ï¿½`ï¿½ï¿½ ï¿½_(" + start_point +","+ end_point + ")ï¿½ï¿½ï¿½î€ï¿½Æ‚ï¿½ï¿½ÄAï¿½ï¿½"+ width +"ï¿½ï¿½ï¿½ï¿½"+ height +"ï¿½Ìlï¿½pï¿½`");
 	}
 
 	@Override
