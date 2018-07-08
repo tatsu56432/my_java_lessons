@@ -6,11 +6,12 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Cards c = new Cards();
-		int[] card_num = c.getCard_num();
-		
-		for (int num : card_num) {
-		    System.out.println(num);
-		}
+		c.display();
+//		int[] card_num = c.getCard_num();
+//		
+//		for (int num : card_num) {
+//		    System.out.println(num);
+//		}
 		
 //		int i;
 //		for(i=0;i< card_num.length; i++) {

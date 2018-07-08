@@ -1,5 +1,7 @@
 package Big_or_Small;
 
+import java.util.Random;
+
 public class Cards implements Game{
 
 	private MarkAndNum MarkAndNum_obj;
@@ -27,9 +29,20 @@ public class Cards implements Game{
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub
+		//乱数を生成
+		Random rand = new Random();
+		int randomNum_mark = rand.nextInt(4);
+		int randomNum = rand.nextInt(14);
+		
+		while(randomNum < 1) {
+			randomNum = rand.nextInt(14);			
+		}
+		
+		
 		int[] card_num = getNum();
 		String[] card_mark = getMark();
-		System.out.println("カードの種類" + card_mark[2] +card_num[0] +"" );
+		System.out.println("カードの種類は" + card_mark[randomNum_mark] +card_num[randomNum]);
+		
 	}
 
 	@Override
