@@ -10,38 +10,35 @@ public class Main {
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
 		int incnt = scanner.nextInt();
 		
+		Figure figure;		
 		if (incnt == 0) {
-			Circle c = new Circle(100, 100, 20);
-			c.draw();
-			double length = c.perimeter();
-			System.out.println("周囲の長さは" + length);
+			figure = new Circle(100, 100, 20);
 		} else if (incnt == 2) {
-			Line l = new Line(0, 0, 100, 100);
-			l.draw();
-			double length = l.perimeter();
-			System.out.println("周囲の長さは" + length);
+			figure = new Line(0, 0, 100, 100);
 		} else if (incnt == 3) {
-			Triangle t = new Triangle(0, 0, 100, 100, 0, 200);
-			t.draw();
-			double length = t.perimeter();
-			System.out.println("周囲の長さは" + length);
-			System.out.println("内角の和は"+ t.getInternalAngel() +"です。");
-			
+			figure = new Triangle(0, 0, 100, 100, 0, 200);
 		} else if (incnt == 4) {
-			Rectangle r = new Rectangle(0,0,100,100);
-			r.draw();
-			double length = r.perimeter();
-			System.out.println("周囲の長さは" + length);
-			System.out.println("内角の和は"+ r.getInternalAngel() +"です。");
+			figure = new Rectangle(0,0,100,100);
 		} else if (incnt == 44) {
-			Square s = new Square(0,0,200);
-			s.draw();
-			double length = s.perimeter();
-			System.out.println("周囲の長さは" + length);
-			System.out.println("内角の和は"+ s.getInternalAngel() +"です。");
+			figure = new Square(0,0,200);
 		} else {
 			System.out.println("指定の数値を入力してください。");
+			return;
 		}
+
+
+		figure.draw();
+		double length = figure.perimeter();
+		System.out.println("周囲の長さは" + length);
+		if(figure instanceof Polygon) {
+			Polygon figure_re = (Polygon)figure;
+			System.out.println("内角の和は"+ figure_re.getInternalAngel() +"です。");
+			
+		}
+		
+
+		
+		
 
 	}
 
