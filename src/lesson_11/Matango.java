@@ -2,10 +2,34 @@ package lesson_11;
 
 public class Matango {
 	
-	int hp;
+	int hp = 50;
+	
+	public int getHp() {
+		return hp;
+	}
+
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+
+	public char getSuffix() {
+		return suffix;
+	}
+
+	public void setSuffix(char suffix) {
+		this.suffix = suffix;
+	}
+
+	private char suffix;
 	final int level = 10;
-	char suffix;
-	void run() {
-	System.out.println("縺雁喧縺代く繝弱さ" + this.suffix + "縺ｯ騾�縺貞�ｺ縺励◆縲�");	
+	
+	public Matango(char suffix) {
+		this.suffix = suffix;
+	}
+	
+	public void attack(Hero h) {
+		System.out.println("キノコ" + this.suffix + "の攻撃");
+		System.out.println("10のダメージ");
+		h.setHp(h.getHp()-10);
 	}
 }

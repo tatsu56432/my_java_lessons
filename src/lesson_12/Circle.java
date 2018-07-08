@@ -30,7 +30,7 @@ public class Circle extends Shape{
 		Point point = this.getCenter();
 		int start_point = point.getX();
 		int end_point = point.getY();
-		System.out.println("‰~‚ğ•`‰æA’†S“_"+ start_point + "," + end_point + "‚©‚ç”¼Œa" + this.getRadious());
+		System.out.println("ä¸­å¿ƒç‚¹"+ start_point + "," + end_point + "ã‹ã‚‰åŠå¾„" + this.getRadious());
 		
 	}
 	

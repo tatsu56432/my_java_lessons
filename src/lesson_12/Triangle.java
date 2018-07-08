@@ -33,7 +33,7 @@ public class Triangle extends Polygon {
 		Point point1 = this.getP1();
 		Point point2 = this.getP2();
 		Point point3 = this.getP3();		
-		System.out.println("OŠpŒ`‚ğ•`‰æ"+"“_1"+ point1.getX() + "," + point1.getY() + "‚©‚ç“_2" + point2.getX() + "," + point2.getY() + ",“_3"+ point3.getX() + "," + point3.getY()   +"‚ÌOŠpŒ`");
+		System.out.println("ä¸‰è§’å½¢ã‚’æç”»ã€ç‚¹"+ point1.getX() + "," + point1.getY() + "ã‹ã‚‰ç‚¹ï¼’" + point2.getX() + "," + point2.getY() + "ã€ç‚¹ï¼“"+ point3.getX() + "," + point3.getY()   +"ã¾ã§ã®ä¸‰è§’å½¢");
 	}
 
 	@Override
